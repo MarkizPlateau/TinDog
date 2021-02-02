@@ -13,6 +13,29 @@ body {
   padding: 2% 2% 2%;
 }
 
+/* Sections text color */
+
+.colored-background {
+  color: #fff;
+}
+
+.white-background {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Text align center  */
+
+#testimonials, #press, #pricing, #cta, #footer {
+  text-align: center;
+}
+
+/* Paragraphs */
+
+p {
+  color: #8f8f8f;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -32,7 +55,6 @@ body {
 }
 
 h1 {
-  color: #fff;
   font-weight: 700;
   font-size: 4rem;
   line-height: 1.5;
@@ -47,7 +69,6 @@ h1 {
 }
 
 
-
 .title-picture {
   position: absolute;
   left: 20%;
@@ -58,7 +79,6 @@ h1 {
 /* Features Section */
 
 #features {
-  background-color: #fff;
   position: relative;
 }
 
@@ -97,7 +117,6 @@ h1 {
 }
 
 .article-paragraph {
-  color: #8f8f8f;
   font-size: 1.5rem;
 }
 
@@ -105,8 +124,6 @@ h1 {
 
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
-  text-align: center;
 }
 
 .carousel-item {
@@ -138,7 +155,6 @@ h1 {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -151,7 +167,11 @@ h1 {
 
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
@@ -160,12 +180,8 @@ h1 {
 
 /* CTA Section */
 
-
-
 #cta {
   background-color: #ff4c68;
-  color: #fff;
-  text-align: center;
 }
 
 .cta-heading {
@@ -183,18 +199,10 @@ h1 {
 
 /* Footer section */
 
-#footer {
-  text-align: center;
-}
-
 .footer-icons {
   padding: 3% 0 1%;
 }
 
 .footer-icon {
   padding: 0 10px;
-}
-
-.footer-paragraph {
-  color: #8f8f8f;
 }
